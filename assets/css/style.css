@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(66, 134, 244);
+    width: 100%;
+    height: 80%;
+}
+
+#calculator {
+    margin: 0 auto;    
+    background-color: white;
+    border: black 3px solid;
+}
+
+#buttoncontainer {
+    margin: 0 auto;
+}
+
+div, #container {
+    display: inline-block;
+}
