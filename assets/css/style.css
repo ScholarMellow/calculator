@@ -1,6 +1,10 @@
 body {
-    background-color: rgb(66, 134, 244);
     font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
 }
 
 .calc-btn {
@@ -29,6 +33,10 @@ body {
     display: table-cell;
 }
 
+#calc-parent {
+    margin-left: calc(50% - 100px);
+}
+
 #calc-zero {
     width: 98.66666667px;
     border-radius: 0 0 0 7px;
@@ -51,17 +59,11 @@ body {
     overflow: hidden;
 }
 
-#calc-btn-operator {
+.calc-btn-operator {
     background-color: orange;
     color: white;   
 }
 
 #calc-equals {
     border-radius: 0 0 7px 0;
-}
-
-h1 {
-    text-align: center;
-    margin-top: 50px;
-
 }
